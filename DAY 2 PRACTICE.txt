@@ -1,0 +1,86 @@
+DAY 2 STRING PRACTICE
+
+>>>print('30 days 30 hour challenge')
+30 days 30 hour challenge
+>>>print("30 days 30 hour challenge")
+30 days 30 hour challenge
+
+>>>Hours="thirty"
+>>>print(Hours)
+thirty
+
+INDEXING USING STRING
+
+>>> Days="Thirty days"
+>>> print(Days[0])
+T
+
+HOW TO PRINT PARTICUALR CHARACTER FROM A CERTAIN TEXT
+
+>>> Challenge="i will win"
+>>> print(Challenge[7:10])
+win
+
+>>> colour='blue red yellow'
+>>> print(colour[3:7])
+e re
+
+PRINTING LENGTH OF CHARACTER
+
+>>> cars='ferrari ford Hyundai'
+>>> print(len(cars))
+20
+
+CONVERT STRING TO LOWER CHARACTER
+
+>>> Challenge = "I will win"
+>>> print(Challenge.lower())
+i will win
+
+STRING CONCANTATION
+
+>>> a = "30 Days"
+>>> b = "30 hours"
+>>> c = a + " " + b
+>>> print(c)
+30 Days 30 hours
+
+>>> a='we'
+>>> b='are'
+>>> c=a+b
+>>> print(c)
+weare
+
+CASEFOLD
+
+>>> text = "Thirty days and Thirty hours"
+>>> x = text.casefold()
+>>> print(x)
+thirty days and thirty hours
+
+>>> text = "Thirty days and Thirty hours"
+>>> x=text.isalnum()
+>>> print(x)
+False
+
+>>> text = "Thirty days and Thirty hours"
+>>> x=text.find()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: find() takes at least 1 argument (0 given)
+
+>>> text="Thirty days and Thirty hours"
+>>> x=text.capitalize()
+>>> print(x)
+Thirty days and thirty hours
+
+>>> text = "Thirty days and Thirty hours"
+>>> x=text.isalpha()
+>>> print(x)
+False
+
+
+
+
+
+
