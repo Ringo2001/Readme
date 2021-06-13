@@ -1,0 +1,15 @@
+Day 1 - 
+
+#Addition of numbers
+
+num1 = 115
+num2 = 113
+sum = num1 + num2
+print('The sum of the two numbers is',sum)
+
+#Maximum of two numbers
+
+value1=23
+value2=45
+maximum=max(value1,value2)
+print(maximum) 
