@@ -1,0 +1,43 @@
+DAY 7 TASKS
+
+1)Create a function getting two integer inputs from user. & print the following:
+
+
+
+>>>def operations():
+...     a=int(input("enter the first number= "))
+...     b=int(input("enter the second number= "))
+...     z=a+b
+...     print("The addition of two numbers=",z)
+...     z=a-b
+...     print("The subtraction of two numbers=",z)
+...     z=a*b
+...     print("The multiplication of two numbers=",z)
+...     z=a//b
+...     print("The division of two numbers=",z)
+...
+...
+ 
+>>> operations()
+enter the first number= 23
+enter the second number= 56
+The addition of two numbers= 79
+The subtraction of two numbers= -33
+The multiplication of two numbers= 1288
+The division of two numbers= 0
+
+
+2) Create a function covid() & it should accept patient name, and body temperature, by default the body temperature should be 98 degree
+
+y=input("enter the covid patient name:")
+y=98
+if(y!=98):
+    print("enter the body temperature:",numb)
+else:
+    print("the body temp is=98")
+  
+y=input("enter the patient name:")
+
+def covid():
+    print("The patient body tempature is:98")
+covid()
